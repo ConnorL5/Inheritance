@@ -14,6 +14,7 @@ private:
 	int year;
 public:
 	Vehicle();
+	Vehicle(string, int);
 	void setManu(string);
 	void setYear(int);
 	string getManu();

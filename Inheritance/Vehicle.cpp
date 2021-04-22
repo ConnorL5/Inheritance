@@ -7,10 +7,18 @@
 #include<iostream>
 using namespace std;
 
+//Default constructor
 Vehicle::Vehicle()
 {
 	manufacturer = "";
 	year = 0;
+}
+
+//Constructor
+Vehicle::Vehicle(string m, int y)
+{
+	setManu(m);
+	setYear(y);
 }
 
 //Sets manufacturer attribute
