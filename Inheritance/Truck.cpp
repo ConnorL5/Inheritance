@@ -8,13 +8,13 @@
 using namespace std;
 
 //Default constructor
-Truck::Truck()
+Truck::Truck() : Vehicle()
 {
 	towCap = 0;
 }
 
 //Constructor
-Truck::Truck(int t)
+Truck::Truck(int t) : Vehicle()
 {
 	towCap = t;
 }

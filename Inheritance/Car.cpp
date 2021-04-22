@@ -8,13 +8,13 @@
 using namespace std;
 
 //Constructor initializes values
-Car::Car()
+Car::Car() : Vehicle()
 {
 	numDoors = 0;
 }
 
 //Constructor
-Car::Car(string m, int y, int d)
+Car::Car(int d) : Vehicle()
 {
 	setDoors(d);
 }
