@@ -3,7 +3,6 @@
 //April 25, 2021
 
 #include "Car.h"
-#include "Vehicle.h"
 #include<string>
 #include<iostream>
 using namespace std;
@@ -11,7 +10,6 @@ using namespace std;
 //Constructor initializes values
 Car::Car()
 {
-	Vehicle::Vehicle();
 	numDoors = 0;
 }
 
@@ -19,7 +17,6 @@ Car::Car()
 Car::Car(string m, int y, int d)
 {
 	setDoors(d);
-	Vehicle(m, y);
 }
 
 //Sets the number of doors
